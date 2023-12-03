@@ -41,3 +41,6 @@ Interpreting the Output: Analyze the model's output to understand the recognized
 
 Conclusion
 This project represents a technological leap, blending emotional intelligence with algorithms to redefine how users experience music based on their current mood. It's a testament to the synergy of technology and human emotion in enhancing user experiences.
+
+LINK TO OUR VIDEO: https://youtu.be/p9pMsZ9KxFc 
+
