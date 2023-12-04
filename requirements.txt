@@ -1,8 +1,8 @@
-streamlit==1.16.0
-openai==v0.29.0
-panel==0.11.5
-numpy==1.21.2
-opencv-python==4.5.3.56
-tensorflow==2.5.0
-google-api-python-client==2.19.1
-keras==2.5.0
+streamli
+openai
+panel
+numpy
+opencv-python
+tensorflow
+google-api-python-client
+keras
