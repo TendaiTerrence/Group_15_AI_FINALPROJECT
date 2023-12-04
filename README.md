@@ -1,46 +1,58 @@
 # Group_15_AI_FINALPROJECT
 
-Face Emotion Recognition Model
-This project innovates a music recommendation system by integrating facial emotion recognition technology with advanced Convolutional Neural Networks (CNNs). It's not just about analyzing user preferences; it dives into understanding the user's emotional state for more resonant music selections. This approach fills a gap in traditional music recommendation systems by prioritizing the emotional connection, aiming for a more empathetic and personalized listening experience.
+# EmoCompanion App
 
-Introduction
-The goal is to create a human emotion recognition model using facial expressions. The project tackles data imbalance in emotion classes by downsampling overrepresented classes to improve model accuracy.
+The **EmoCompanion App** is designed to provide emotional support and therapy recommendations based on user interactions. It integrates an emotion detection feature and a chatbot therapy system, offering a comprehensive approach to users seeking assistance with their emotions.
 
-Key Processes
+## Features
 
-Mounting the Drive: Setting up the necessary file system.
-Reading and Checking Image Shapes: Ensuring data uniformity.
-Loading Training and Testing Data: Organizing the dataset for model training and evaluation.
-Displaying Images from Emotion Classes: Visual analysis of each emotion category.
-Data Balance Analysis: Evaluating the distribution of data among different emotion classes.
+### 1. **Emotion Detection**
+   - Users can upload an image, and the app will detect the emotion displayed in the image.
+   - The detected emotion is then used to recommend a playlist of songs that align with the detected emotion.
 
-Installation
-Begin by importing the required libraries:
+### 2. **Music Recommendation**
+   - Based on the detected emotion, the app recommends a playlist of songs from YouTube to uplift the user's mood.
 
-import tensorflow
-import cv2
-import os
-import matplotlib.pyplot
-import numpy
-import os
-import random
-import sklearn.model_selection import train_test_split
-from tensorflow import keras
-from tensorflow.keras import layers
-from tensorflow.keras import optimizers
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.callbacks import LearningRateScheduler
-from tensorflow.keras import models
-from sklearn.metrics import roc_curve, accuracy_score, roc_auc_score
+### 3. **Chatbot Therapy**
+   - Users can engage in therapeutic conversations with the chatbot.
+   - The chatbot provides a supportive and empathetic environment to help users navigate through their emotions.
+   - It offers general counseling and resources, guiding users toward emotional well-being.
+
+## Usage
+
+1. **Emotion Detection:**
+   - Choose the "Detect Emotion" option.
+   - Upload an image or take a new one.
+   - The app will detect the emotion and recommend music based on the detected emotion.
+
+2. **Music Recommendation:**
+   - If you choose the "Recommend playlist basing on detected emotion," the app provides a playlist of songs corresponding to the detected emotion.
+
+3. **Chatbot Therapy:**
+   - Opt for the "Therapy" option to engage in a therapeutic conversation.
+   - The chatbot provides supportive responses, helping users explore their emotions and find a path to emotional well-being.
+
+## Getting Started
+
+1. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Run the app:
+   ```bash
+   streamlit run app.py
+   ```
+
+3. Interact with the EmoCompanion App through the Streamlit interface.
+
+## Important Note
+
+- This app is designed to offer support and guidance but is not a substitute for professional therapy.
+- If users are in crisis, it is recommended to seek help from professional resources or hotlines.
 
 
-Preparing Input Data: Format your data to align with the model's input requirements.
-
-Making Predictions: Use the model to predict emotions from facial expressions.
-Interpreting the Output: Analyze the model's output to understand the recognized emotions.
-
-Conclusion
-This project represents a technological leap, blending emotional intelligence with algorithms to redefine how users experience music based on their current mood. It's a testament to the synergy of technology and human emotion in enhancing user experiences.
+---
 
 LINK TO OUR VIDEO: https://youtu.be/p9pMsZ9KxFc 
 
